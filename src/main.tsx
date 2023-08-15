@@ -10,11 +10,11 @@ import Home from './routes/Home.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/qr-code-tattoo",
     element: <App/>,
     children: [
       {
-        path: "/",
+        path: "/qr-code-tattoo",
         element: <Home />
       },
       // {
