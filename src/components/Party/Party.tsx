@@ -16,7 +16,7 @@ export function Party({ data } : Props) {
   const [wobble, setWobble] = useState(0)
 
   async function handleDislike () {
-    console.log("dislike")
+    console.log(wobble)
     setWobble(1)
     await new Promise(r => setTimeout(r, 1000));
     window.close();
