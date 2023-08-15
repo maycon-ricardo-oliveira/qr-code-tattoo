@@ -1,0 +1,17 @@
+.container {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcon {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
