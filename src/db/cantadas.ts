@@ -16,11 +16,11 @@ export const cantadas:Seduce[]  = [
   },
   {
     id: 4,
-    text: "Queria muito ssr um poeta, mas poeta não posso ser, um poeta pensa em poesia e eu só penso em você",
+    text: "Queria muito ser um poeta, mas poeta não posso ser, um poeta pensa em poesia e eu só penso em você",
   },
   {
     id: 5,
-    text: "Eu to com uma doença que só cura com um beijo seu",
+    text: "Eu to com uma doença que só cura com um beijo seu.",
     anwser: "Você vai deixar eu morrer mesmo?"
   },
   {
@@ -45,13 +45,9 @@ export const cantadas:Seduce[]  = [
     anwser: "De homem da sua vida"
   },
   {
-    id: 11,
-    text: "Porque vc ta com esse óculos na cabeça sendo que era para vc enxergar que eu sou o amor da sua vida",
-  },
-  {
     id: 12,
     text: "Qual a semelhança do meu beijo com o seu cabelo?",
-    anwser: "É que is dois não vão sair da sua cabeça"
+    anwser: "É que os dois não vão sair da sua cabeça"
   },
   {
     id: 13,

@@ -11,7 +11,7 @@
   background-color: #fff;
   padding: 16px;
   border-radius: 16px;
-  height: 60vh;
+  min-height: 50vh;
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -26,7 +26,15 @@
   font-family: "Poppins";
   font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
+}
+.seduceAnwser {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 16px;
 }
 .seduceButtons {
   bottom: 0;

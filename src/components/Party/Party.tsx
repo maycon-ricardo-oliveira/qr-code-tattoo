@@ -49,7 +49,7 @@ export function Party({ data } : Props) {
           <p className={classes.seduceText}>{data.text}</p>
           {
             data.anwser &&
-            <p className="seduceAnwser">{data.anwser}</p>
+            <p className={classes.seduceAnwser}>{data.anwser}</p>
           }
         </div>
         
