@@ -1,6 +1,6 @@
 .container {
   max-width: 90vw;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
