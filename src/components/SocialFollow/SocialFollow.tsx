@@ -1,24 +1,7 @@
 import classes from "./SocialFollow.module.css"
-
 import {BiLogoInstagram, BiLogoWhatsapp} from 'react-icons/bi'
-import { useState } from "react";
-
 
 export function SocialFollow( ) {
-
-  const [wobble, setWobble] = useState(0)
-
-  async function handleWhatsapp() {
-    setWobble(2)
-    await new Promise(r => setTimeout(r, 2000));
-    sendMessage()
-  }
-
-  async function handleInstagram() {
-    setWobble(3)
-    await new Promise(r => setTimeout(r, 2000));
-    sendMessage()
-  }
 
   function sendMessage() {
     let message = "Oie Maycon";
