@@ -1,0 +1,31 @@
+.wrapper {
+  background-color: #196439;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dogTagCard {
+  background-color: #6f6f70;
+  background-image: linear-gradient(315deg, #6f6f70 0%, #383838 74%);
+  padding: 16px;
+  border-radius: 50% 50% 50% 50% / 15% 15% 15% 15% ;
+  min-width: 300px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding-top: 70px;
+
+}

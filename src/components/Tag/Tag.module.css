@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.tagName {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 4px;
+  background:linear-gradient(#262626,#5b6467,#262626);
+  -webkit-background-clip: text;
+  color:transparent;
+  
+}
+.tagValue {
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  background:linear-gradient(#5b6467,#f7f7f7,#b5b1b1);
+  -webkit-background-clip: text;
+  color:transparent;
+}

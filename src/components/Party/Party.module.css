@@ -1,3 +1,14 @@
+.wrapper {
+  background-color: #E5B6C9;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   max-width: 90vw;
   height: 80vh;
@@ -11,13 +22,14 @@
   background-color: #fff;
   padding: 16px;
   border-radius: 16px;
-  min-height: 50vh;
+  height: auto;
   align-items: center;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
 }
+
 .seduceTextContainer {
   padding: 20px;
 }
@@ -50,7 +62,6 @@
 .button:focus, .button:hover {
   animation: wobble 1s 1;
 }
-
 
 .button[wobble='1'] {
   animation: wobble 1s 1;

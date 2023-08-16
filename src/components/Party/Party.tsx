@@ -42,36 +42,38 @@ export function Party({ data } : Props) {
   }
 
   return (
-    <div className={classes.container}>
-      <div className={classes.seduceCard} key={data.id}>
-        
-        <div className={classes.seduceTextContainer}>
-          <p className={classes.seduceText}>{data.text}</p>
-          {
-            data.anwser &&
-            <p className={classes.seduceAnwser}>{data.anwser}</p>
-          }
+    <div className={classes.wrapper}>
+      <div className={classes.container}>
+        <div className={classes.seduceCard} key={data.id}>
+          
+          <div className={classes.seduceTextContainer}>
+            <p className={classes.seduceText}>{data.text}</p>
+            {
+              data.anwser &&
+              <p className={classes.seduceAnwser}>{data.anwser}</p>
+            }
+          </div>
+          
+          <div className={classes.seduceButtons}>
+            <button className={classes.button} onClick={() => handleDislike()}>
+              <Dislike />
+            </button>
+            <button className={classes.button} onClick={() => handleSuperlike()}>
+              <Superlike />
+            </button>
+
+            <button className={classes.button} onClick={() => handleLike()}>
+              <Like />
+            </button>
+
+          </div>
         </div>
-        
-        <div className={classes.seduceButtons}>
-          <button className={classes.button} onClick={() => handleDislike()}>
-            <Dislike />
-          </button>
-          <button className={classes.button} onClick={() => handleSuperlike()}>
-            <Superlike />
-          </button>
-
-          <button className={classes.button} onClick={() => handleLike()}>
-            <Like />
-          </button>
-
+        <div className={classes.socialFollowCard} >
+          <SocialFollow/>
         </div>
-      </div>
-
-      <div className={classes.socialFollowCard} >
-        <SocialFollow/>
       </div>
     </div>
+   
   )
 
 }
