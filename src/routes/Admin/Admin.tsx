@@ -1,5 +1,4 @@
 import classes from "./Admin.module.css"
-import { configs } from '../../db/configs.js';
 import Select from "react-select";
 import { useEffect, useState } from "react";
 import { getCurrentApp, setCurrentApp } from "../../services/configs";
@@ -28,6 +27,7 @@ const Admin = () => {
     setCurrentApp(selectedOption.value);
     setSelected(selectedOption.value);
     setApp(selectedOption.value)
+    console.log(selected)
   };
 
   return (
