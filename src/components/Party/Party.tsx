@@ -36,8 +36,8 @@ export function Party({ data } : Props) {
 
   function sendMessage(type: "like" | "super-like") {
     let message = type == 'like' ? "Oie Maycon" : generateRandomSeduce().text;
-    let url = `https://web.whatsapp.com/send?phone=+5535998123863`;
-    url += `&text=${encodeURI(message)}&app_absent=0`;
+    let url = `https://wa.me/+5535998123863`;
+    url += `&text=${encodeURI(message)}`;
     window.open(url);
   }
 
