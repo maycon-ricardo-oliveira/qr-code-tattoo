@@ -11,15 +11,15 @@ import Admin from './routes/Admin/Admin.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/qr-code-tattoo",
+    path: "/",
     element: <App/>,
     children: [
       {
-        path: "/qr-code-tattoo",
+        path: "/",
         element: <Home />
       },
       {
-        path: "/qr-code-tattoo/admin",
+        path: "/admin",
         element: <Admin />
       }
     ]
